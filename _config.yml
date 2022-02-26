@@ -2,11 +2,11 @@
 title: Athlete Decoded
 description: AI Athlete 
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://athletedecoded.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Athlete Decoded
-user_description: What Lights Me Up
+user_description: About Me
 user_title: AI Student x Athlete
 email: anon@anon.com
 twitter_username: kahliahogg
