@@ -1,0 +1,43 @@
+{% import 'partials/about.html' as partial_about -%}
+{% import 'partials/stack.html' as partial_stack -%}
+{% import 'partials/projects.html' as partial_projects -%}
+{% import 'partials/experience.html' as partial_experience -%}
+{% import 'partials/education.html' as partial_education -%}
+
+{% extends "base.html" %}
+
+{% block content %}
+<div id="fullpage">
+  {% if config.extra.show_about %}
+  <div class="section hero is-fullheight page" id="about">
+    {{ partial_about::display() }}
+  </div>
+  {% endif %}
+
+  {% if config.extra.show_stack %}
+  <div class="section hero is-fullheight page" id="stack">
+    {{ partial_stack::display() }}
+  </div>
+  {% endif %}
+
+  {% if config.extra.show_projects %}
+  <div class="section hero is-fullheight page" id="projects">
+    {{ partial_projects::display() }}
+  </div>
+  {% endif %}
+
+  {% if config.extra.show_experience %}
+  <div class="section hero is-fullheight page" id="experience">
+    {{ partial_experience::display() }}
+  </div>
+  {% endif %}
+
+  {% if config.extra.show_education %}
+  <div class="section hero is-fullheight page" id="education">
+    {{ partial_education::display() }}
+  </div>
+  {% endif %}
+
+
+</div>
+{% endblock content %}

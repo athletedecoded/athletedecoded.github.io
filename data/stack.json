@@ -1,0 +1,27 @@
+[
+  {
+    "grouping": "Languages, Frameworks & Tools",
+    "stack": [
+      "Rust",
+      "Python",
+      "Pytorch",
+      "TensorFlow",
+      "Onnx",
+      "Docker",
+      "git"
+    ]
+  },
+  {
+    "grouping": "Data Management",
+    "stack": [
+      "MongoDB"
+    ]
+  },
+  {
+    "grouping": "Platforms",
+    "stack": [
+      "AWS",
+      "Azure"
+    ]
+  }
+]

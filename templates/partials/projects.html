@@ -1,0 +1,25 @@
+{% macro display() %}
+{% set data = load_data(path="data/projects.json") %}
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2>projects</h2>
+  <div style="overflow: auto;">
+    {% for item in data %}
+    <div class="mb-5">
+      <nav class="level mb-0">
+        <div class="level-left">
+          <div class="level-item">
+            <a href="{{ item.link }}"><h3 class="text-primary">{{ item.name }}</h3></a>
+          </div>
+        </div>
+      </nav>
+      <div class="is-flex is-flex-direction-column is-align-items-start">
+        <div>
+          {{ item.summary | markdown(inline=true) | safe }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>
+{% endmacro %}

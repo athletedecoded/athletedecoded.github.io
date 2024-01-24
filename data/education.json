@@ -1,0 +1,20 @@
+[
+    {
+        "school": "Duke University",
+        "degree": "Master of Science in Computer Science (Artificial Intelligence)",
+        "notes": "Fulbright Scholar (Funded by the Kinghorn Foundation)",
+        "dates": "Aug 2022 - May 2024"
+    },
+    {
+        "school": "Deakin University",
+        "degree": "Graduate Certificate in Artificial Intelligence",
+        "notes": "GPA: 6.50/7.00",
+        "dates": "Jul 2021 - Nov 2021"
+    },
+    {
+        "school": "University of Colorado, Boulder",
+        "degree": "Bachelor of Science in Mechanical Engineering",
+        "notes": "Graduated Magna Cum Laude (GPA: 3.81/4.00) ",
+        "dates": "Jan 2012 - Dec 2016"
+    }
+]

@@ -1,0 +1,37 @@
+{% macro display() %}
+{% set data = load_data(path="data/stack.json") %}
+<div class="is-flex is-flex-direction-column is-justify-content-center" style="height: 100%;">
+  <h2>stack</h2>
+  <div style="overflow: auto;">
+    {% for group in data %}
+    <div style="padding-bottom: 1rem;">
+      <h3 style="color: #868e96;">{{ group.grouping }}</h3>
+      <div>
+        {% for skill in group.stack %}
+          <span> • </span>
+<!--        {% if "name" in skill %}-->
+<!--        {% if "icon" in skill %}-->
+<!--        <span class="icon"><i class="devicon-{{  skill.icon | lower }}-plain"></i></span>{{ skill.name }}-->
+<!--        {% else %}-->
+<!--        <span class="icon"><i class="devicon-{{  skill.name | lower }}-plain"></i></span>{{ skill.name }}-->
+<!--        {% endif %}-->
+<!--        {% else %}-->
+<!--        <span class="icon"><i class="devicon-{{  skill | lower }}-plain"></i></span>{{ skill }}-->
+<!--        {% endif %}-->
+        <span>{{ skill }} </span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div>
+    <a href="https://github.com/athletedecoded">
+      <img class="readme-cards" align="center" src="https://github-readme-stats.vercel.app/api?username={{ config.extra.github }}&count_private=true&show_icons=true&theme=react&hide_rank=true" />
+    </a>
+    <a href="https://github.com/athletedecoded">
+      <img class="readme-cards" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ config.extra.github }}&layout=donut&theme=react&hide=HTML,SCSS,jupyter%20notebook&size_weight=0&count_weight=1" />
+    </a>
+  </div>
+</div>
+{% endmacro %}

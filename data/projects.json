@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Rustfolio",
+        "summary": "A collection of Rust Data Engineering and MLOps projects",
+        "link": "https://athletedecoded.com/rustfolio/"
+    },
+    {
+        "name": "Candle Cookbook",
+        "summary": "An opensource project to package and deploy SOTA LLMs as Rust binaries",
+        "link": "https://nogibjj.github.io/candle-cookbook/"
+    },
+    {
+        "name": "Ready AI in Sport Course",
+        "summary": "An introductory course covering the role of AI in Sport",
+        "link": "https://readysport.teachable.com/p/intro-to-ai-in-sport"
+    }
+]

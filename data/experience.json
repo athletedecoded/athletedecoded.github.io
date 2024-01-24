@@ -1,0 +1,28 @@
+[
+    {
+        "role": "Young Talent Program (AI Advisor)",
+        "company": "[READY Sport Global](https://www.readysportglobal.com/)",
+        "summary": [
+            "Expert contributor for the Ready AI in Sport course, successfully launched Jan 2024"
+        ],
+        "dates": "September 2023 - NOW"
+    },
+    {
+        "role": "AI Intern & Women in Sports Tech Fellow",
+        "company": "[IBM iX Sports & Entertainment](https://www.ibm.com/sports)",
+        "summary": [
+            "Developed training pipelines and performed model validation for the Wimbledon Tennis AI Commentary model",
+            "Trained a custom tennis classifier with >92% F1 and <0.03 sec latency for automated highlight package generation"
+        ],
+        "dates": "May 2023 - Jul 2023"
+    },
+    {
+        "role": "Video Machine Learning Engineer",
+        "company": "[Australian Institute of Sport](https://www.ais.gov.au/sports-technology)",
+        "summary": [
+            "Developed a novel sport-specific action recognition model to support Australian Olympic sports teams",
+            "Created a robust 3D sports motion dataset by simulating dynamic camera projections used in sports broadcasting"
+        ],
+        "dates": "Nov 2021 - Jul 2022"
+    }
+]

@@ -1,0 +1,15 @@
+{# Default section.html template #}
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container is-fluid" style="min-height: 100vh;">
+  <div class="is-flex is-flex-direction-column is-justify-content-center" style="min-height: 100vh;">
+    <div>
+      <h1>{{ section.title }}</h1>
+      <div class="content">{{ section.content | safe }}</div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
