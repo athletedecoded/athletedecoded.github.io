@@ -1,5 +1,7 @@
 # CV/Resume
 
+[![Build & Deploy Site](https://github.com/athletedecoded/resume/actions/workflows/deploy.yml/badge.svg)](https://github.com/athletedecoded/resume/actions/workflows/deploy.yml)
+
 ## Developer Guide
 
 This site is built using [Zola](https://www.getzola.org/) and Rust. This is a minimalist adaptation of the zola [resume theme](https://www.getzola.org/themes/resume/).
