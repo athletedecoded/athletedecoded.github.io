@@ -47,3 +47,8 @@ $ zola serve
 **Deploy**
 
 CI/CD deployment is automated with Github Actions.
+
+`$git push origin main` triggers `./github/workflows/deploy.yml`
+
+* Before 1st push: Settings > Actions > General > Workflow Permissions > Enable Read & Write permissions
+* After 1st push: Settings > Pages > Build & Deployment > Select Branch: `gh-pages`
