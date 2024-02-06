@@ -1,8 +1,8 @@
 # Athlete Decoded
 
-Live @ [https://athletedecoded.com](https://athletedecoded.com)
-
 [![Build & Deploy Site](https://github.com/athletedecoded/resume/actions/workflows/deploy.yml/badge.svg)](https://github.com/athletedecoded/resume/actions/workflows/deploy.yml)
+
+Live @ [https://athletedecoded.com](https://athletedecoded.com)
 
 ## Developer Guide
 
