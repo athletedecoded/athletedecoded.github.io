@@ -7,20 +7,20 @@
 {% if config.extra.show_stack         %}
 <li data-menuanchor="stack"><a href="{{ get_url(path='/#anchor_stack') }}">STACK</a></li>
 {% endif %}
+{% if config.extra.show_experience      %} 
+<li data-menuanchor="experience"><a href="{{ get_url(path='/#anchor_experience') }}">EXPERIENCE</a></li>
+{% endif %}
+{% if config.extra.show_education       %} 
+<li data-menuanchor="education"><a href="{{ get_url(path='/#anchor_education') }}">EDUCATION</a></li>
+{% endif %}
 {% if config.extra.show_projects        %}
 <li data-menuanchor="projects"><a href="{{ get_url(path='/#anchor_projects') }}">PROJECTS</a></li>
 {% endif %}
 {% if config.extra.show_opensource      %} 
 <li data-menuanchor="opensource"><a href="{{ get_url(path='/#anchor_opensource') }}">OPEN SOURCE</a></li>
 {% endif %}
-{% if config.extra.show_publications    %}
-<li data-menuanchor="publications"><a href="{{ get_url(path='/#anchor_publications') }}">PUBLICATIONS</a></li>
-{% endif %}
-{% if config.extra.show_experience      %} 
-<li data-menuanchor="experience"><a href="{{ get_url(path='/#anchor_experience') }}">EXPERIENCE</a></li>
-{% endif %}
-{% if config.extra.show_education       %} 
-<li data-menuanchor="education"><a href="{{ get_url(path='/#anchor_education') }}">EDUCATION</a></li>
+{% if config.extra.show_presentations    %}
+<li data-menuanchor="presentations"><a href="{{ get_url(path='/#anchor_presentations') }}">PRESENTATIONS</a></li>
 {% endif %}
 {% if config.extra.show_blog            %} 
 <li data-menuanchor="blog"><a href="{{ get_url(path='/#anchor_blog') }}">BLOG</a></li>    
@@ -40,7 +40,7 @@
             {% if config.extra.show_stack         %} 'anchor_stack',        {% endif %}
             {% if config.extra.show_projects        %} 'anchor_projects',      {% endif %}
             {% if config.extra.show_opensource      %} 'anchor_opensource',    {% endif %}
-            {% if config.extra.show_publications    %} 'anchor_publications',  {% endif %}
+            {% if config.extra.show_presentations    %} 'anchor_presentations',  {% endif %}
             {% if config.extra.show_experience      %} 'anchor_experience',    {% endif %}
             {% if config.extra.show_education       %} 'anchor_education',     {% endif %}
             {% if config.extra.show_blog            %} 'anchor_blog',          {% endif %}

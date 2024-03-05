@@ -1,0 +1,12 @@
+[    
+    {
+        "name": "State Space Models & Mamba",
+        "paper": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+        "deck": "Mamba.pdf"
+    },
+    {
+        "name": "ML Poisoning Attacks",
+        "paper": "ShieldFL: Mitigating Model Poisoning Attacks in Privacy Preserving Federated Learning",
+        "deck": "ShieldFL.pdf"
+    }
+]

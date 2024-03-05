@@ -1,6 +1,7 @@
 {% import 'partials/about.html' as partial_about -%}
 {% import 'partials/stack.html' as partial_stack -%}
 {% import 'partials/projects.html' as partial_projects -%}
+{% import 'partials/presentations.html' as partial_presentations -%}
 {% import 'partials/experience.html' as partial_experience -%}
 {% import 'partials/education.html' as partial_education -%}
 
@@ -20,12 +21,6 @@
   </div>
   {% endif %}
 
-  {% if config.extra.show_projects %}
-  <div class="section hero is-fullheight page" id="projects">
-    {{ partial_projects::display() }}
-  </div>
-  {% endif %}
-
   {% if config.extra.show_experience %}
   <div class="section hero is-fullheight page" id="experience">
     {{ partial_experience::display() }}
@@ -35,6 +30,18 @@
   {% if config.extra.show_education %}
   <div class="section hero is-fullheight page" id="education">
     {{ partial_education::display() }}
+  </div>
+  {% endif %}
+  
+  {% if config.extra.show_projects %}
+  <div class="section hero is-fullheight page" id="projects">
+    {{ partial_projects::display() }}
+  </div>
+  {% endif %}
+
+  {% if config.extra.show_presentations %}
+  <div class="section hero is-fullheight page" id="presentations">
+    {{ partial_presentations::display() }}
   </div>
   {% endif %}
 

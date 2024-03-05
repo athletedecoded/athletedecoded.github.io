@@ -6,19 +6,14 @@
       "Python",
       "Pytorch",
       "TensorFlow",
+      "HuggingFace",
       "Onnx",
       "Docker",
       "git"
     ]
   },
   {
-    "grouping": "Data Management",
-    "stack": [
-      "MongoDB"
-    ]
-  },
-  {
-    "grouping": "Platforms",
+    "grouping": "Cloud Platforms",
     "stack": [
       "AWS",
       "Azure"

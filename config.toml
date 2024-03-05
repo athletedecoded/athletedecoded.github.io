@@ -24,8 +24,8 @@ avatar = "/media/headshot.jpg"
 
 show_about = true
 show_stack = true
-show_projects = true
-show_publications = false
 show_experience = true
 show_education = true
+show_projects = true
+show_presentations = true
 show_blog = false
