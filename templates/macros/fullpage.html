@@ -38,11 +38,11 @@
         anchors: [
             {% if config.extra.show_about           %} 'anchor_about',         {% endif %}
             {% if config.extra.show_stack         %} 'anchor_stack',        {% endif %}
+            {% if config.extra.show_experience      %} 'anchor_experience',    {% endif %}
+            {% if config.extra.show_education       %} 'anchor_education',     {% endif %}
             {% if config.extra.show_projects        %} 'anchor_projects',      {% endif %}
             {% if config.extra.show_opensource      %} 'anchor_opensource',    {% endif %}
             {% if config.extra.show_presentations    %} 'anchor_presentations',  {% endif %}
-            {% if config.extra.show_experience      %} 'anchor_experience',    {% endif %}
-            {% if config.extra.show_education       %} 'anchor_education',     {% endif %}
             {% if config.extra.show_blog            %} 'anchor_blog',          {% endif %}
         ],
         afterResize: function( width, height ){
