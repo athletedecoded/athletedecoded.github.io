@@ -1,5 +1,10 @@
 [    
     {
+        "name": "Finetuning ClimateGPT for Sentiment Analysis",
+        "paper": "Finetuning ClimateGPT to minimize carbon footprint",
+        "deck": "ClimateGPT.pdf"
+    },
+    {
         "name": "State Space Models & Mamba",
         "paper": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
         "deck": "Mamba.pdf"
